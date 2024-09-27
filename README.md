@@ -1,9 +1,9 @@
 # Módulo 1 de ReactJS Rocket-Seat
 
-Esse módulo é um projeto dedicado ao estudo das bases do ReactJS.
+Esse módulo é um projeto de Timer dedicado ao estudo das bases do ReactJS com Typescript.
 ___
 ### Palavras chave:
->ReactJS, Bundlers, Compilers, Vite, CSS modules, Desestruturação de objetos, Responsividade, Componentização, Programação Imperativa, Programação Declarativa, Estado, Propriedades, Imutabilidade, Clean Code (Código Limpo), Generics (typescript) - Parâmetros, Extensões de Interface (Propriedades de elementos padrões do HTML), Rest Operator (...props), Spread Operator (...content)
+>ReactJS
 
 ## Conteúdo Programático do Módulo 1
 
@@ -13,11 +13,7 @@ ___
   ---
 
   + Introdução
-  + Fundamentos do ReactJS
-  + Bundlers & Compilers
-  + Criando um projeto React
-  + Componentes
-  + Propriedades
+  + Criação do projeto
   ---
 </details>
 
@@ -27,8 +23,16 @@ ___
 
 ## Principais comandos:
 
-### Aula "Bundlers & Compilers"
+### Aula "Criação do Projeto"
 
++ `npm create vite@latest` : Cria o projeto Vite.
+  > **_OBS:_** Aqui você pode encontrar a documentação do [Vite](https://vitejs.dev/guide/)
++ `npm i` : Instala as dependências para rodar o projeto.
++ `npm run dev` : Roda o projeto na porta configurada no arquivo vite.config.js. Nesse projeto está na localhost:3001.
+
+### Recurso "Figma"
+
++ Protótipo de Alta Fidelidade no [Figma](https://www.figma.com/community/file/1127351821076435124)
 
 
 ## Autoria e Créditos:

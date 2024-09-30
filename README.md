@@ -44,6 +44,45 @@ ___
 
 + `npm i eslint -D`: Instala o ESLint
 + `npm i @rocketseat/eslint-config -D`: Instala a configuração do ESLint da Rocket Seat
++ `npx eslint src --ext .ts,.tsx`: Comando para ver os erros de ESLint.
++ `npx eslint src --ext .ts,.tsx --fix`: Comando para corrigir todos os erros de ESLint que puderem ser corrigidos automaticamente.
++ Criar um script no arquivo `package.json` para rodar o comando `npm run lint` ou `npm run lint --fix`
+    >
+    ```
+    "scripts": {
+      "lint": "eslint src --ext .ts,.tsx",
+    },
+    ```
+
+### **Passo a Passo para Configuração do ESLint do Crea-GO:**
+
+1. Excluir a pasta `node_modules`.
+2. Dentro do arquivo `package.json`, excluir todas as `devDependencies` que tenham "eslint" no nome.
+3. Rodar `npm i`
+4. Rodar o comando: `npm install eslint@8.22.0 @typescript-eslint/eslint-plugin@5.45.0 @typescript-eslint/parser@5.45.0 eslint-plugin-prettier@4.2.1 prettier@2.7.1 --save-dev`
+5. Rodar o comando: `npm i -D eslint-config-creago`
+6. Se não existir, crie o arquivo ´.eslintrc.json´ e coloque no seu conteúdo:
+    >
+    ```
+    {
+      "extends": "eslint-config-creago/react"
+    }
+    ```
+7. Alterar as configurações de usuário no `settings.json`, acrescentando:
+    >
+    ```
+    {
+      "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit",
+          "source.fixAll.eslint": "explicit"
+      },
+      "eslint.format.enable": true,
+      "editor.formatOnSave": true
+    }
+    ```
+8. Instalar a extensão ESLint da Microsoft no VSCode
+9. Rodar `npm run lint` para mostrar os erros.
+10. Testar se `Ctrl + S` num arquivo .ts ou .tsx aplica formatação do ESLint
 
 ## Autoria e Créditos:
 

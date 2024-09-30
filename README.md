@@ -25,15 +25,20 @@ ___
 
 ### Aula "Criação do Projeto"
 
-+ `npm create vite@latest` : Cria o projeto Vite.
++ `npm create vite@latest`: Cria o projeto Vite.
   > **_OBS:_** Aqui você pode encontrar a documentação do [Vite](https://vitejs.dev/guide/)
-+ `npm i` : Instala as dependências para rodar o projeto.
-+ `npm run dev` : Roda o projeto na porta configurada no arquivo vite.config.js. Nesse projeto está na localhost:3001.
++ `npm i`: Instala as dependências para rodar o projeto.
++ `npm run dev`: Roda o projeto na porta configurada no arquivo vite.config.js. Nesse projeto está na localhost:3001.
 
 ### Recurso "Figma"
 
 + Protótipo de Alta Fidelidade no [Figma](https://www.figma.com/community/file/1127351821076435124)
 
+### Aula "Styled Components"
+
++ `npm i styled-components`: Instala o pacote do Styled Components (CSS através do Javascript).
++ `npm i @types/styled-components -D`: Instala as declarações de tipagens do Styled Componentes para ele funcionar em conjunto com o Typescript.
+  > **_OBS:_** Instalar a extensão do VSCode "jvscode-styled-components"
 
 ## Autoria e Créditos:
 

@@ -40,6 +40,11 @@ ___
 + `npm i @types/styled-components -D`: Instala as declarações de tipagens do Styled Componentes para ele funcionar em conjunto com o Typescript.
   > **_OBS:_** Instalar a extensão do VSCode "jvscode-styled-components"
 
+### Aula "Configurando o ESLint"
+
++ `npm i eslint -D`: Instala o ESLint
++ `npm i @rocketseat/eslint-config -D`: Instala a configuração do ESLint da Rocket Seat
+
 ## Autoria e Créditos:
 
 + Documentação criada com carinho e dedicação por [Júlio César Freitas](https://github.com/juliofreitasbm) a serviço do [CREA-GO](https://www.creago.org.br/).

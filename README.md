@@ -93,6 +93,12 @@ ___
 
 + `npm i phosphor-react`: Biblioteca de ícones.
 
+### Aula "Controlled VS Uncontrolled"
+
++ Controlled: Forma de lidar com formulários salvando os inputs em estados e atualizando o componente a cada interação do usuário.
++ Uncontrolled: Forma de lidar com formulário executando funções apenas quando o usuário especifica clicando num botão, por exemplo.
+
+
 ## Autoria e Créditos:
 
 + Documentação criada com carinho e dedicação por [Júlio César Freitas](https://github.com/juliofreitasbm) a serviço do [CREA-GO](https://www.creago.org.br/).

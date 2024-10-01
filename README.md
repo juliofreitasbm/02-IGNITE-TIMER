@@ -61,7 +61,7 @@ ___
 3. Rodar `npm i`
 4. Rodar o comando: `npm install eslint@8.22.0 @typescript-eslint/eslint-plugin@5.45.0 @typescript-eslint/parser@5.45.0 eslint-plugin-prettier@4.2.1 prettier@2.7.1 --save-dev`
 5. Rodar o comando: `npm i -D eslint-config-creago`
-6. Se não existir, crie o arquivo ´.eslintrc.json´ e coloque no seu conteúdo:
+6. Exclua o arquivo `.eslint.config.js` e, se não existir, crie o arquivo ´.eslintrc.json´ e coloque no seu conteúdo:
     >
     ```
     {
@@ -83,6 +83,15 @@ ___
 8. Instalar a extensão ESLint da Microsoft no VSCode
 9. Rodar `npm run lint` para mostrar os erros.
 10. Testar se `Ctrl + S` num arquivo .ts ou .tsx aplica formatação do ESLint
+
+### Aula "React Router DOM"
+
++ `npm i react-router-dom`: Instala o React Router para lidar com rotas na aplicação
+  > Os componentes `BrowserRouter` e `ThemeProvider` são chamados de Context Providers. Eles não tem efeito visual, mas geram um contexto para os componentes que estão dentro deles.
+
+### Aula "Header & Layout"
+
++ `npm i phosphor-react`: Biblioteca de ícones.
 
 ## Autoria e Créditos:
 

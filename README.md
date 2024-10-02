@@ -98,6 +98,24 @@ ___
 + Controlled: Forma de lidar com formulários salvando os inputs em estados e atualizando o componente a cada interação do usuário.
 + Uncontrolled: Forma de lidar com formulário executando funções apenas quando o usuário especifica clicando num botão, por exemplo.
 
+### Aula "React Hook Form"
+
++ `npm i react-hook-form`: Biblioteca para lidar com formulários tanto de forma Controlled quanto Uncontrolled.
+
+### Aula "Validando Formulários"
+
++ `npm i zod`: Biblioteca para validação de dados.
++ `npm i @hookform/resolvers`: Permite integrar a biblioteca Hook Form com as bibliotecas de validação (yup, joi ou zod).
+
+### Aula "Reduzindo Countdown"
+
++ `npm i date-fns`: Manipulação de datas e de tempo.
+
+### Aula "Prop Drilling"
+
++ Prop Drilling: É um problema que acontece quando temos muitas propriedades apenas para comunicação entre componentes.
++ Context API: Permite compartilharmos informações entre vários componentes ao mesmo tempo.
+
 
 ## Autoria e Créditos:
 

@@ -116,6 +116,10 @@ ___
 + Prop Drilling: É um problema que acontece quando temos muitas propriedades apenas para comunicação entre componentes.
 + Context API: Permite compartilhar informações entre vários componentes ao mesmo tempo.
 
+### Aula "Salvando um objeto no Reducer"
+
++ Ferramenta que ajuda a entender os [Erros do Typescript](https://ts-error-translator.vercel.app/)
+
 
 ## Autoria e Créditos:
 

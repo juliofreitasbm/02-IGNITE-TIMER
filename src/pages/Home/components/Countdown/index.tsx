@@ -47,7 +47,7 @@ export function Countdown() {
     setSecondsPassed,
   ])
 
-  const currentSeconds = totalSeconds - amountSecondsPassed
+  const currentSeconds = activeCycle ? totalSeconds - amountSecondsPassed : 0
 
   const minutesAmount = Math.floor(currentSeconds / 60)
   const secondsAmount = currentSeconds % 60

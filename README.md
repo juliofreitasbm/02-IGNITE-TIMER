@@ -114,7 +114,7 @@ ___
 ### Aula "Prop Drilling"
 
 + Prop Drilling: É um problema que acontece quando temos muitas propriedades apenas para comunicação entre componentes.
-+ Context API: Permite compartilharmos informações entre vários componentes ao mesmo tempo.
++ Context API: Permite compartilhar informações entre vários componentes ao mesmo tempo.
 
 
 ## Autoria e Créditos:

@@ -120,6 +120,10 @@ ___
 
 + Ferramenta que ajuda a entender os [Erros do Typescript](https://ts-error-translator.vercel.app/)
 
+### Aula "Salvando um objeto no Reducer"
+
++ Imutabilidade: No contexto dessa aplicação é o que gera a necessidade de utilizar frequentemente maps nos Arrays.
++ `npm i immer`: Permite trabalhar com dados imutáveis como se fossem mutáveis.
 
 ## Autoria e Créditos:
 

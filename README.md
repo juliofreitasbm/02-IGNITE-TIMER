@@ -8,7 +8,7 @@ ___
 ## Conteúdo Programático do Módulo 1
 
 <details style="font-size: 16px">
-<summary><strong style="font-size: 18px">1. Fundamentos do Nest</strong></summary>
+<summary><strong style="font-size: 18px">1. Iniciando com React</strong></summary>
 
   ---
 
